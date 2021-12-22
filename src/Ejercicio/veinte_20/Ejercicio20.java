@@ -15,7 +15,15 @@ public class Ejercicio20 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        int[] numeros = new int[999];
+        
+        for (int i=100 ; i>=0 ; i--){
+            numeros[i]=i;
+            System.out.print("|"+ numeros[i]+ "|");
+        }
+        
+        System.out.println(" ");
+        
     }
     
 }
