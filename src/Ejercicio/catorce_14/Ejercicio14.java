@@ -25,9 +25,9 @@ public class Ejercicio14 {
         String s = " ";
         System.out.println("INGRESE 2 NUMEROS");
         
-        int num1 = scan.nextInt();
+        double num1 = scan.nextDouble();
         
-        int num2 = scan.nextInt();
+        double num2 = scan.nextDouble();
 
         do{
             System.out.println("MENU");
@@ -56,11 +56,11 @@ public class Ejercicio14 {
                 case 5:
                     System.out.println("¿Estas seguro que desea salir del programa (S/N)? ");
                     
-                    s = scan.next();
+                    s = scan.next().toUpperCase();
                     break;
                    }
       
-        }while (!"S".equals(s));
+        }while (!s.equals("S"));
         System.out.println("ADIOSSSSSS!");
             
         }

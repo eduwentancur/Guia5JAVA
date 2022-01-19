@@ -17,7 +17,7 @@ public class Ejercicio18 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-       int cont = 0;
+        int cont = 0;
 
         String numero1 = "";
         String numero2 = "";
@@ -32,7 +32,7 @@ public class Ejercicio18 {
 
             if (num > 0 && num < 21) {
                 cont = cont + 1;
-                
+
                 for (int i = 0; i < num; i++) {
                     cad = cad + "*";
 
@@ -65,5 +65,5 @@ public class Ejercicio18 {
         System.out.println(numero3);
         System.out.println(numero4);
     }
-    
+
 }
